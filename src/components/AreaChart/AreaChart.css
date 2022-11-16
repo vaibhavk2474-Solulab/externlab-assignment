@@ -1,0 +1,8 @@
+.apexcharts-canvas .apexcharts-toolbar{
+    display: none;
+  }
+
+  .apexcharts-text.apexcharts-xaxis-label tspan{
+    fill:  #A8A9AD;
+  }
+  

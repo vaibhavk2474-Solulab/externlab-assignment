@@ -1,0 +1,102 @@
+.App {
+  color: white;
+  margin-top: 50px;
+  /* margin-left: 90px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-container-width{
+  width: 53rem;
+}
+
+.temp-font{
+  font-size: 75px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.degree-font .degree-c{
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.degree-font .degree-f {
+  font-size: x-large;
+  font-weight: 500;
+  color: #919296;
+}
+
+/* Tabs */
+.tabs{
+  margin-top: 10px;
+}
+.tabs .tabs-ul{
+  list-style-type: none;
+  display: table;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.tabs .tabs-li{
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 4px;
+    cursor: pointer;
+    color: #A8A9AD;
+}
+
+.tabs .tabs-li.border-right{
+  border-right: 5px solid #44454b;
+
+}
+.tabs .tabs-li.text-decor{
+  text-decoration: underline solid #FFE386 42%;
+  color:#ffffff ;
+}
+
+.temp-container{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.temp-container .temp-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 125px;
+  cursor: pointer;
+}
+.temp-container .temp-card .temp-degree{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.temp-card.card-backgroung-color{
+  border: 1px solid #303135;
+  background-color: #303135;
+  border-radius: 10%;
+}
+
+.img-temp-card{
+
+  object-fit: cover;
+}
+
+/* .img-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.text-color{
+  color: #A8A9AD;
+}
+
